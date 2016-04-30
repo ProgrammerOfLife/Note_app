@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% if title %}
+	<title>{{ title }} - Your #1 Note creator</title>
+	{% else %}
+	<title>Welcome to NoteBot</title>
+	{% endif %}	
+</head>
+<body bgcolor="pink">
+		<h1> Hello, {{ user.Name }}! </h1>
+		<h2>We are Hapi to have you here @ NoteBot, Where we secure your note for you</h2>
+		<p><a href="Note.html">Click here to proceed</a></p>
+</body>
+</html>
